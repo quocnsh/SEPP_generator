@@ -1,6 +1,6 @@
 # Probability Weighted Word Saliency(PWWS)
 
-We add prediction of victim classifier from the Probability Weighted Word Saliency(PWWS)([Github](https://github.com/JHL-HUST/PWWS)). The implementations of the ACL2019 paper [Generating Natural Language Adversarial Examples through Probability Weighted Word Saliency](https://www.aclweb.org/anthology/P19-1103).
+We add prediction of a victim classifier from the Probability Weighted Word Saliency(PWWS)([Github](https://github.com/JHL-HUST/PWWS)). The implementations of the ACL2019 paper [Generating Natural Language Adversarial Examples through Probability Weighted Word Saliency](https://www.aclweb.org/anthology/P19-1103).
 
 ## Overview
 * `data_set/aclImdb/` , `data_set/ag_news_csv/`and`data_set/yahoo_10` are placeholder directories for the IMDB Review, AG's News and Yahoo! Answer, respectively.
@@ -28,8 +28,6 @@ We add prediction of victim classifier from the Probability Weighted Word Salien
 ### Result on adversarial generation
 
 `runs/`contains some pretrained NN models. 
-
-`fool_result/`contains the adversarial text generation: 
 
 - `adv.txt` means adversarial texts.
 - `org.txt` means original texts.
